@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+  <parameters>
+    <!-- Classes -->
+    <parameter key="phpmentors_route_based_session_configuration.session_configuration_listener.class">PHPMentors\RouteBasedSessionConfigurationBundle\EventListener\SessionConfigurationListener</parameter>
+    <!-- Configuration parameters -->
+  </parameters>
+  <services>
+    <service id="phpmentors_route_based_session_configuration.session_configuration_listener" class="%phpmentors_route_based_session_configuration.session_configuration_listener.class%">
+      <argument type="service" id="router"/>
+      <argument type="service" id="session.storage"/>
+      <tag name="kernel.event_listener" event="kernel.request" method="onKernelRequest" priority="16"/>
+    </service>
+  </services>
+</container>
