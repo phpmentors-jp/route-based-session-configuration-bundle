@@ -16,8 +16,16 @@ A Symfony bundle for session configuration based on route configuration
 
 First, add the dependency to `phpmentors/route-based-session-configuration-bundle` into your `composer.json` file as the following:
 
+**Stable version:**
+
 ```
-composer require phpmentors/route-based-session-configuration-bundle "~1.0@dev"
+composer require phpmentors/route-based-session-configuration-bundle "1.0.*"
+```
+
+**Development version:**
+
+```
+composer require phpmentors/route-based-session-configuration-bundle "~1.1@dev"
 ```
 
 Second, add `PHPMentorsRouteBasedSessionConfigurationBundle` into your bundles to register in `AppKernel::registerBundles()` as the following:
