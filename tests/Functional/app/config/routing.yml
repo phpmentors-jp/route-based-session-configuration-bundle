@@ -1,0 +1,13 @@
+user:
+    resource: "@TestBundle/Resources/config/routing.yml"
+    prefix: /
+    options:
+        session:
+            name: USER_SESSION
+
+admin:
+    resource: "@TestBundle/Resources/config/routing_admin.yml"
+    prefix: /admin
+    options:
+        session:
+            name: ADMIN_SESSION

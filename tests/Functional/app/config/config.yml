@@ -1,0 +1,10 @@
+imports:
+    - { resource: services.yml }
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+    test: true
+    validation: false
+    session:
+        storage_id: session.storage.mock_file

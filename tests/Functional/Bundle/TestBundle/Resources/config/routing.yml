@@ -1,0 +1,4 @@
+test_runtime_session_configuration_index:
+    path: /runtime-session-configuration/
+    defaults: { _controller: "phpmentors_route_based_session_configuration_test.runtime_session_configuration_controller:indexAction" }
+    methods: [GET]
