@@ -3,7 +3,7 @@
  * Copyright (c) KUBO Atsuhiro <kubo@iteman.jp>,
  * All rights reserved.
  *
- * This file is part of PHPMentorsRouteBasedSessionConfigurationBundle.
+ * This file is part of RouteBasedSessionConfigurationBundle.
  *
  * This program and the accompanying materials are made available under
  * the terms of the BSD 2-Clause License which accompanies this

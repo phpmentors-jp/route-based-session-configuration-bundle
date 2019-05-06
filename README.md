@@ -1,4 +1,4 @@
-# PHPMentorsRouteBasedSessionConfigurationBundle
+# RouteBasedSessionConfigurationBundle
 
 A Symfony bundle for session configuration based on route configuration
 
