@@ -15,7 +15,7 @@ namespace PHPMentors\RouteBasedSessionConfigurationBundle;
 use PHPMentors\RouteBasedSessionConfigurationBundle\DependencyInjection\PHPMentorsRouteBasedSessionConfigurationExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class RouteBasedSessionConfigurationBundle extends Bundle
+class PHPMentorsRouteBasedSessionConfigurationBundle extends Bundle
 {
     /**
      * {@inheritdoc}
