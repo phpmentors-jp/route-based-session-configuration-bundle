@@ -37,10 +37,7 @@ class SessionConfigurationListener
     public function __construct(RouterInterface $router, SessionStorageInterface $sessionStorage)
     {
         $this->router = $router;
-
-        if ($sessionStorage instanceof NativeSessionStorage) {
-            $this->sessionStorage = $sessionStorage;
-        }
+        $this->sessionStorage = $sessionStorage;
     }
 
     /**
