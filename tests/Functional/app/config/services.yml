@@ -1,0 +1,12 @@
+parameters:
+    phpmentors_route_based_session_configuration_test.mock_file_session_storage.class: "PHPMentors\\RouteBasedSessionConfigurationBundle\\Functional\\Bundle\\TestBundle\\Session\\Storage\\MockFileSessionStorage"
+    phpmentors_route_based_session_configuration_test.runtime_session_configuration_controller.class: "PHPMentors\\RouteBasedSessionConfigurationBundle\\Functional\\Bundle\\TestBundle\\Controller\\RuntimeSessionConfigurationController"
+
+services:
+    phpmentors_route_based_session_configuration_test.mock_file_session_storage:
+        class: "%phpmentors_route_based_session_configuration_test.mock_file_session_storage.class%"
+    phpmentors_route_based_session_configuration_test.runtime_session_configuration_controller:
+        public: true
+        class: "%phpmentors_route_based_session_configuration_test.runtime_session_configuration_controller.class%"
+        arguments:
+            - "@session.storage"
