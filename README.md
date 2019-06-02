@@ -5,6 +5,7 @@ A Symfony bundle for session configuration based on route configuration
 [![Total Downloads](https://poser.pugx.org/phpmentors/route-based-session-configuration-bundle/downloads)](https://packagist.org/packages/phpmentors/route-based-session-configuration-bundle)
 [![Latest Stable Version](https://poser.pugx.org/phpmentors/route-based-session-configuration-bundle/v/stable)](https://packagist.org/packages/phpmentors/route-based-session-configuration-bundle)
 [![Latest Unstable Version](https://poser.pugx.org/phpmentors/route-based-session-configuration-bundle/v/unstable)](https://packagist.org/packages/phpmentors/route-based-session-configuration-bundle)
+[![Build Status](https://travis-ci.org/phpmentors-jp/route-based-session-configuration-bundle.svg?branch=master)](https://travis-ci.org/phpmentors-jp/route-based-session-configuration-bundleproxy-url-rewrite-bundle)
 
 ## Features
 
