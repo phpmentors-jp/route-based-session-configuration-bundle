@@ -22,8 +22,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $treeBuilder->root('phpmentors_session_configuration');
+        $treeBuilder = new TreeBuilder('phpmentors_session_configuration');
+        $treeBuilder->getRootNode();
 
         return $treeBuilder;
     }
